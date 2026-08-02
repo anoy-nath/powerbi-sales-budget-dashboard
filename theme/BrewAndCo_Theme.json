@@ -1,0 +1,29 @@
+{
+  "name": "Brew & Co Performance",
+  "dataColors": [
+    "#B5652E",
+    "#5B8C8A",
+    "#C9A15A",
+    "#8A9A5B",
+    "#7D5A50",
+    "#A6612F",
+    "#4C7C7A",
+    "#D0A24C"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#3E2C23",
+  "tableAccent": "#B5652E",
+  "good": "#4C8C5A",
+  "neutral": "#C9A15A",
+  "bad": "#C0392B",
+  "maximum": "#B5652E",
+  "center": "#C9A15A",
+  "minimum": "#F0E7DD",
+  "null": "#EDE7E0",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#3E2C23" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 11, "color": "#5B4A3F" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#5B4A3F" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 28, "color": "#3E2C23" }
+  }
+}

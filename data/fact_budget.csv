@@ -1,0 +1,349 @@
+month,region,category,budget_amount
+Jan-2023,NSW,Bakery & Snacks,900
+Jan-2023,NSW,Drinks,1500
+Jan-2023,NSW,Food,2400
+Jan-2023,NSW,Merchandise,3600
+Jan-2023,QLD,Bakery & Snacks,1800
+Jan-2023,QLD,Drinks,2200
+Jan-2023,QLD,Food,4400
+Jan-2023,QLD,Merchandise,5500
+Jan-2023,VIC,Bakery & Snacks,900
+Jan-2023,VIC,Drinks,1200
+Jan-2023,VIC,Food,1900
+Jan-2023,VIC,Merchandise,3500
+Feb-2023,NSW,Bakery & Snacks,700
+Feb-2023,NSW,Drinks,1100
+Feb-2023,NSW,Food,1900
+Feb-2023,NSW,Merchandise,3200
+Feb-2023,QLD,Bakery & Snacks,1200
+Feb-2023,QLD,Drinks,1900
+Feb-2023,QLD,Food,3500
+Feb-2023,QLD,Merchandise,4100
+Feb-2023,VIC,Bakery & Snacks,700
+Feb-2023,VIC,Drinks,1200
+Feb-2023,VIC,Food,1600
+Feb-2023,VIC,Merchandise,2600
+Mar-2023,NSW,Bakery & Snacks,900
+Mar-2023,NSW,Drinks,1100
+Mar-2023,NSW,Food,2100
+Mar-2023,NSW,Merchandise,2800
+Mar-2023,QLD,Bakery & Snacks,1500
+Mar-2023,QLD,Drinks,1900
+Mar-2023,QLD,Food,3100
+Mar-2023,QLD,Merchandise,4700
+Mar-2023,VIC,Bakery & Snacks,900
+Mar-2023,VIC,Drinks,1200
+Mar-2023,VIC,Food,2200
+Mar-2023,VIC,Merchandise,3100
+Apr-2023,NSW,Bakery & Snacks,900
+Apr-2023,NSW,Drinks,1200
+Apr-2023,NSW,Food,2000
+Apr-2023,NSW,Merchandise,2800
+Apr-2023,QLD,Bakery & Snacks,1300
+Apr-2023,QLD,Drinks,1900
+Apr-2023,QLD,Food,3300
+Apr-2023,QLD,Merchandise,4500
+Apr-2023,VIC,Bakery & Snacks,800
+Apr-2023,VIC,Drinks,1300
+Apr-2023,VIC,Food,1800
+Apr-2023,VIC,Merchandise,2600
+May-2023,NSW,Bakery & Snacks,900
+May-2023,NSW,Drinks,1400
+May-2023,NSW,Food,2000
+May-2023,NSW,Merchandise,2800
+May-2023,QLD,Bakery & Snacks,1400
+May-2023,QLD,Drinks,2100
+May-2023,QLD,Food,3600
+May-2023,QLD,Merchandise,4400
+May-2023,VIC,Bakery & Snacks,800
+May-2023,VIC,Drinks,1200
+May-2023,VIC,Food,2000
+May-2023,VIC,Merchandise,2500
+Jun-2023,NSW,Bakery & Snacks,900
+Jun-2023,NSW,Drinks,1100
+Jun-2023,NSW,Food,1800
+Jun-2023,NSW,Merchandise,2400
+Jun-2023,QLD,Bakery & Snacks,1400
+Jun-2023,QLD,Drinks,1600
+Jun-2023,QLD,Food,3300
+Jun-2023,QLD,Merchandise,4900
+Jun-2023,VIC,Bakery & Snacks,800
+Jun-2023,VIC,Drinks,1200
+Jun-2023,VIC,Food,1900
+Jun-2023,VIC,Merchandise,2900
+Jul-2023,NSW,Bakery & Snacks,900
+Jul-2023,NSW,Drinks,1000
+Jul-2023,NSW,Food,1800
+Jul-2023,NSW,Merchandise,2700
+Jul-2023,QLD,Bakery & Snacks,1300
+Jul-2023,QLD,Drinks,1800
+Jul-2023,QLD,Food,3300
+Jul-2023,QLD,Merchandise,4300
+Jul-2023,VIC,Bakery & Snacks,800
+Jul-2023,VIC,Drinks,900
+Jul-2023,VIC,Food,1900
+Jul-2023,VIC,Merchandise,2600
+Aug-2023,NSW,Bakery & Snacks,900
+Aug-2023,NSW,Drinks,1000
+Aug-2023,NSW,Food,2100
+Aug-2023,NSW,Merchandise,3400
+Aug-2023,QLD,Bakery & Snacks,1600
+Aug-2023,QLD,Drinks,1800
+Aug-2023,QLD,Food,3100
+Aug-2023,QLD,Merchandise,5100
+Aug-2023,VIC,Bakery & Snacks,800
+Aug-2023,VIC,Drinks,1000
+Aug-2023,VIC,Food,2200
+Aug-2023,VIC,Merchandise,3000
+Sep-2023,NSW,Bakery & Snacks,800
+Sep-2023,NSW,Drinks,1200
+Sep-2023,NSW,Food,2300
+Sep-2023,NSW,Merchandise,3100
+Sep-2023,QLD,Bakery & Snacks,1500
+Sep-2023,QLD,Drinks,1900
+Sep-2023,QLD,Food,3500
+Sep-2023,QLD,Merchandise,5400
+Sep-2023,VIC,Bakery & Snacks,900
+Sep-2023,VIC,Drinks,1000
+Sep-2023,VIC,Food,2200
+Sep-2023,VIC,Merchandise,2200
+Oct-2023,NSW,Bakery & Snacks,900
+Oct-2023,NSW,Drinks,1200
+Oct-2023,NSW,Food,2500
+Oct-2023,NSW,Merchandise,2500
+Oct-2023,QLD,Bakery & Snacks,1500
+Oct-2023,QLD,Drinks,2200
+Oct-2023,QLD,Food,3700
+Oct-2023,QLD,Merchandise,5800
+Oct-2023,VIC,Bakery & Snacks,1000
+Oct-2023,VIC,Drinks,1200
+Oct-2023,VIC,Food,2000
+Oct-2023,VIC,Merchandise,3000
+Nov-2023,NSW,Bakery & Snacks,1000
+Nov-2023,NSW,Drinks,1300
+Nov-2023,NSW,Food,1900
+Nov-2023,NSW,Merchandise,3700
+Nov-2023,QLD,Bakery & Snacks,1900
+Nov-2023,QLD,Drinks,2000
+Nov-2023,QLD,Food,3900
+Nov-2023,QLD,Merchandise,6000
+Nov-2023,VIC,Bakery & Snacks,1000
+Nov-2023,VIC,Drinks,1200
+Nov-2023,VIC,Food,2300
+Nov-2023,VIC,Merchandise,3300
+Dec-2023,NSW,Bakery & Snacks,1100
+Dec-2023,NSW,Drinks,1500
+Dec-2023,NSW,Food,2500
+Dec-2023,NSW,Merchandise,3800
+Dec-2023,QLD,Bakery & Snacks,1800
+Dec-2023,QLD,Drinks,2200
+Dec-2023,QLD,Food,4100
+Dec-2023,QLD,Merchandise,5600
+Dec-2023,VIC,Bakery & Snacks,1100
+Dec-2023,VIC,Drinks,1200
+Dec-2023,VIC,Food,2500
+Dec-2023,VIC,Merchandise,3500
+Jan-2024,NSW,Bakery & Snacks,1000
+Jan-2024,NSW,Drinks,1400
+Jan-2024,NSW,Food,2300
+Jan-2024,NSW,Merchandise,3600
+Jan-2024,QLD,Bakery & Snacks,1600
+Jan-2024,QLD,Drinks,2100
+Jan-2024,QLD,Food,4000
+Jan-2024,QLD,Merchandise,5700
+Jan-2024,VIC,Bakery & Snacks,1100
+Jan-2024,VIC,Drinks,1500
+Jan-2024,VIC,Food,2500
+Jan-2024,VIC,Merchandise,3500
+Feb-2024,NSW,Bakery & Snacks,800
+Feb-2024,NSW,Drinks,1100
+Feb-2024,NSW,Food,2100
+Feb-2024,NSW,Merchandise,2900
+Feb-2024,QLD,Bakery & Snacks,1400
+Feb-2024,QLD,Drinks,2000
+Feb-2024,QLD,Food,3900
+Feb-2024,QLD,Merchandise,4700
+Feb-2024,VIC,Bakery & Snacks,900
+Feb-2024,VIC,Drinks,1300
+Feb-2024,VIC,Food,2000
+Feb-2024,VIC,Merchandise,2800
+Mar-2024,NSW,Bakery & Snacks,900
+Mar-2024,NSW,Drinks,1300
+Mar-2024,NSW,Food,2100
+Mar-2024,NSW,Merchandise,3600
+Mar-2024,QLD,Bakery & Snacks,1700
+Mar-2024,QLD,Drinks,2200
+Mar-2024,QLD,Food,3800
+Mar-2024,QLD,Merchandise,4800
+Mar-2024,VIC,Bakery & Snacks,900
+Mar-2024,VIC,Drinks,1300
+Mar-2024,VIC,Food,2100
+Mar-2024,VIC,Merchandise,2800
+Apr-2024,NSW,Bakery & Snacks,900
+Apr-2024,NSW,Drinks,1100
+Apr-2024,NSW,Food,1800
+Apr-2024,NSW,Merchandise,2700
+Apr-2024,QLD,Bakery & Snacks,1600
+Apr-2024,QLD,Drinks,2100
+Apr-2024,QLD,Food,3900
+Apr-2024,QLD,Merchandise,4700
+Apr-2024,VIC,Bakery & Snacks,1100
+Apr-2024,VIC,Drinks,1300
+Apr-2024,VIC,Food,1900
+Apr-2024,VIC,Merchandise,2900
+May-2024,NSW,Bakery & Snacks,800
+May-2024,NSW,Drinks,1300
+May-2024,NSW,Food,2200
+May-2024,NSW,Merchandise,3500
+May-2024,QLD,Bakery & Snacks,1700
+May-2024,QLD,Drinks,2000
+May-2024,QLD,Food,3700
+May-2024,QLD,Merchandise,5500
+May-2024,VIC,Bakery & Snacks,900
+May-2024,VIC,Drinks,1300
+May-2024,VIC,Food,2200
+May-2024,VIC,Merchandise,2900
+Jun-2024,NSW,Bakery & Snacks,800
+Jun-2024,NSW,Drinks,1100
+Jun-2024,NSW,Food,2100
+Jun-2024,NSW,Merchandise,3100
+Jun-2024,QLD,Bakery & Snacks,1400
+Jun-2024,QLD,Drinks,1700
+Jun-2024,QLD,Food,3200
+Jun-2024,QLD,Merchandise,4900
+Jun-2024,VIC,Bakery & Snacks,800
+Jun-2024,VIC,Drinks,1300
+Jun-2024,VIC,Food,2100
+Jun-2024,VIC,Merchandise,2800
+Jul-2024,NSW,Bakery & Snacks,900
+Jul-2024,NSW,Drinks,1200
+Jul-2024,NSW,Food,2100
+Jul-2024,NSW,Merchandise,2800
+Jul-2024,QLD,Bakery & Snacks,1400
+Jul-2024,QLD,Drinks,1800
+Jul-2024,QLD,Food,3600
+Jul-2024,QLD,Merchandise,5000
+Jul-2024,VIC,Bakery & Snacks,900
+Jul-2024,VIC,Drinks,1100
+Jul-2024,VIC,Food,2200
+Jul-2024,VIC,Merchandise,2800
+Aug-2024,NSW,Bakery & Snacks,1100
+Aug-2024,NSW,Drinks,1300
+Aug-2024,NSW,Food,2200
+Aug-2024,NSW,Merchandise,2700
+Aug-2024,QLD,Bakery & Snacks,1700
+Aug-2024,QLD,Drinks,1800
+Aug-2024,QLD,Food,3800
+Aug-2024,QLD,Merchandise,5400
+Aug-2024,VIC,Bakery & Snacks,800
+Aug-2024,VIC,Drinks,1200
+Aug-2024,VIC,Food,2700
+Aug-2024,VIC,Merchandise,2500
+Sep-2024,NSW,Bakery & Snacks,1000
+Sep-2024,NSW,Drinks,1000
+Sep-2024,NSW,Food,2400
+Sep-2024,NSW,Merchandise,3800
+Sep-2024,QLD,Bakery & Snacks,1500
+Sep-2024,QLD,Drinks,2300
+Sep-2024,QLD,Food,3800
+Sep-2024,QLD,Merchandise,4900
+Sep-2024,VIC,Bakery & Snacks,1000
+Sep-2024,VIC,Drinks,1300
+Sep-2024,VIC,Food,2300
+Sep-2024,VIC,Merchandise,2900
+Oct-2024,NSW,Bakery & Snacks,900
+Oct-2024,NSW,Drinks,1400
+Oct-2024,NSW,Food,1900
+Oct-2024,NSW,Merchandise,3700
+Oct-2024,QLD,Bakery & Snacks,1700
+Oct-2024,QLD,Drinks,2300
+Oct-2024,QLD,Food,3900
+Oct-2024,QLD,Merchandise,5800
+Oct-2024,VIC,Bakery & Snacks,1000
+Oct-2024,VIC,Drinks,1000
+Oct-2024,VIC,Food,2000
+Oct-2024,VIC,Merchandise,2900
+Nov-2024,NSW,Bakery & Snacks,1100
+Nov-2024,NSW,Drinks,1400
+Nov-2024,NSW,Food,3000
+Nov-2024,NSW,Merchandise,3300
+Nov-2024,QLD,Bakery & Snacks,1900
+Nov-2024,QLD,Drinks,2600
+Nov-2024,QLD,Food,4500
+Nov-2024,QLD,Merchandise,5900
+Nov-2024,VIC,Bakery & Snacks,1100
+Nov-2024,VIC,Drinks,1300
+Nov-2024,VIC,Food,2400
+Nov-2024,VIC,Merchandise,2800
+Dec-2024,NSW,Bakery & Snacks,1200
+Dec-2024,NSW,Drinks,1600
+Dec-2024,NSW,Food,2600
+Dec-2024,NSW,Merchandise,3600
+Dec-2024,QLD,Bakery & Snacks,1900
+Dec-2024,QLD,Drinks,2500
+Dec-2024,QLD,Food,4300
+Dec-2024,QLD,Merchandise,6000
+Dec-2024,VIC,Bakery & Snacks,1100
+Dec-2024,VIC,Drinks,1500
+Dec-2024,VIC,Food,2800
+Dec-2024,VIC,Merchandise,3500
+Jan-2025,NSW,Bakery & Snacks,1200
+Jan-2025,NSW,Drinks,1400
+Jan-2025,NSW,Food,2500
+Jan-2025,NSW,Merchandise,3700
+Jan-2025,QLD,Bakery & Snacks,1800
+Jan-2025,QLD,Drinks,2300
+Jan-2025,QLD,Food,4500
+Jan-2025,QLD,Merchandise,5700
+Jan-2025,VIC,Bakery & Snacks,1000
+Jan-2025,VIC,Drinks,1300
+Jan-2025,VIC,Food,2900
+Jan-2025,VIC,Merchandise,3600
+Feb-2025,NSW,Bakery & Snacks,1000
+Feb-2025,NSW,Drinks,1200
+Feb-2025,NSW,Food,1800
+Feb-2025,NSW,Merchandise,3300
+Feb-2025,QLD,Bakery & Snacks,1200
+Feb-2025,QLD,Drinks,1800
+Feb-2025,QLD,Food,3500
+Feb-2025,QLD,Merchandise,5200
+Feb-2025,VIC,Bakery & Snacks,1000
+Feb-2025,VIC,Drinks,1200
+Feb-2025,VIC,Food,2000
+Feb-2025,VIC,Merchandise,2900
+Mar-2025,NSW,Bakery & Snacks,1000
+Mar-2025,NSW,Drinks,1400
+Mar-2025,NSW,Food,2500
+Mar-2025,NSW,Merchandise,3200
+Mar-2025,QLD,Bakery & Snacks,1500
+Mar-2025,QLD,Drinks,2400
+Mar-2025,QLD,Food,4000
+Mar-2025,QLD,Merchandise,5600
+Mar-2025,VIC,Bakery & Snacks,1100
+Mar-2025,VIC,Drinks,1200
+Mar-2025,VIC,Food,2500
+Mar-2025,VIC,Merchandise,3300
+Apr-2025,NSW,Bakery & Snacks,1000
+Apr-2025,NSW,Drinks,1400
+Apr-2025,NSW,Food,2300
+Apr-2025,NSW,Merchandise,3000
+Apr-2025,QLD,Bakery & Snacks,1700
+Apr-2025,QLD,Drinks,1900
+Apr-2025,QLD,Food,4200
+Apr-2025,QLD,Merchandise,5400
+Apr-2025,VIC,Bakery & Snacks,900
+Apr-2025,VIC,Drinks,1300
+Apr-2025,VIC,Food,2100
+Apr-2025,VIC,Merchandise,3700
+May-2025,NSW,Bakery & Snacks,900
+May-2025,NSW,Drinks,1500
+May-2025,NSW,Food,2200
+May-2025,NSW,Merchandise,3600
+May-2025,QLD,Bakery & Snacks,1900
+May-2025,QLD,Drinks,2200
+May-2025,QLD,Food,4100
+May-2025,QLD,Merchandise,4700
+May-2025,VIC,Bakery & Snacks,1000
+May-2025,VIC,Drinks,1200
+May-2025,VIC,Food,2700
+May-2025,VIC,Merchandise,3100

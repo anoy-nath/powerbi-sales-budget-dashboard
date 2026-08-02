@@ -1,0 +1,13 @@
+product_id,product_name,category,cost_price,unit_price
+P01,Flat White,Beverages,2.1,5.5
+P02,Long Black,Beverages,1.8,5.0
+P03,Iced Latte,Beverages,2.4,6.5
+P04,Croissant,Bakery,1.2,4.5
+P05,Banana Bread,Bakery,1.0,4.0
+P06,Muffin,Bakery,0.9,3.8
+P07,Chicken Wrap,Food,3.2,9.5
+P08,Garden Salad,Food,2.8,8.5
+P09,Bacon Roll,Food,3.5,10.0
+P10,Bottled Water,Retail,0.6,3.0
+P11,Keep Cup,Retail,6.0,18.0
+P12,Coffee Beans 250g,Retail,5.5,16.0
