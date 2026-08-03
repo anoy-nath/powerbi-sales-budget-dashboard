@@ -52,7 +52,7 @@ The source extracts were deliberately messy, mirroring real operational systems:
 
 **Power Query (M):** locale-aware date parsing with `try ... otherwise` fallback for mixed formats, deduplication after validating the row-level grain, text standardisation, conditional-column mapping to a canonical category set. Fully refreshable — zero manual steps.
 
-**Data model:** a star-schema-style dimensional model with two fact tables (`Fact_Sales`, `Fact_Budget`) at different grains, integrated through **conformed dimensions** (`Dim_Region`, `Dim_Category`) so a single slicer filters both facts correctly, with deliberate snowflaking on the sales side (Region → Stores → Sales; Category → Products → Sales). Dedicated marked `Dim_Date` table.
+**Data model:** a Star-schema-style model with two fact tables (`Fact_Sales`, `Fact_Budget`) at different grains, integrated through **conformed dimensions** (`Dim_Region`, `Dim_Category`) so a single slicer filters both facts correctly, with deliberate snowflaking on the sales side (Region → Stores → Sales; Category → Products → Sales). Dedicated marked `Dim_Date` table.
 
 **DAX:** measure layer covering Variance / Variance %, `SAMEPERIODLASTYEAR` YoY, MoM, calendar YTD, **Australian fiscal YTD (July–June)**, and a like-for-like YTD-vs-prior-YTD comparison using variables. All measures in a dedicated `_Measures` table. See [docs/dax_measures.md](docs/dax_measures.md).
 
