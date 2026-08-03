@@ -17,7 +17,7 @@ An end-to-end Power BI project: messy multi-source data → refreshable Power Qu
 | Tools | Power BI, Power Query (M), DAX |
 | Key result | 97.2% budget attainment; VIC drove the entire group shortfall |
 
-**Explore:** [Live dashboard](YOUR-PUBLISH-TO-WEB-LINK-HERE) · [DAX measures](docs/dax_measures.md) · [Build notes](docs/build_notes.md) · [Data dictionary](docs/data_dictionary.md) · [Download the PBIX](BrewAndCo.pbix)
+**Explore:** [Live dashboard](https://app.fabric.microsoft.com/view?r=eyJrIjoiNzViYzNhY2EtZmIzZS00ODhhLTljNjgtY2YwMTcyNzhhNjMzIiwidCI6ImJkZTczODM5LWY2OTQtNDI3MC05ZmExLTQxNTNkNzQ2OTdkZCJ9) · [DAX measures](docs/dax_measures.md) · [Build notes](docs/build_notes.md) · [Data dictionary](docs/data_dictionary.md) · [Download the PBIX](BrewAndCo.pbix)
 
 ---
 
