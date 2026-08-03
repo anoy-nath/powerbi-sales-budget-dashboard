@@ -2,7 +2,7 @@
 
 An end-to-end Power BI project: messy multi-source data → refreshable Power Query ETL → dimensional model with two fact tables at different grains, connected through conformed Date, Region and Category dimensions → DAX time intelligence → executive dashboard.
 
-**[▶ View the live interactive Power BI report](YOUR-PUBLISH-TO-WEB-LINK-HERE)**
+**[▶ View the live interactive Power BI report](https://app.fabric.microsoft.com/view?r=eyJrIjoiNzViYzNhY2EtZmIzZS00ODhhLTljNjgtY2YwMTcyNzhhNjMzIiwidCI6ImJkZTczODM5LWY2OTQtNDI3MC05ZmExLTQxNTNkNzQ2OTdkZCJ9)**
 
 ![Executive summary dashboard](images/executive_summary.png)
 
