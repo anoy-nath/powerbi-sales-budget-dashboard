@@ -13,6 +13,8 @@ SUMX (
 ```
 Row-by-row quantity × price, with price fetched from the product dimension via the relationship (`RELATED`) rather than duplicated onto the fact table. Refunds carry negative quantities, so this is automatically **net revenue**.
 
+> **Stated assumption:** this project assumes a single fixed unit price per product across the reporting period, which holds for this synthetic dataset. In a production model with historical price changes, the transaction price would be stored in the fact table at point of sale, or resolved through an effective-dated price table.
+
 ```dax
 Total Budget = SUM ( Fact_Budget[Budget_Amount] )
 ```

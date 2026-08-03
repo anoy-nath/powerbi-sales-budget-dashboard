@@ -1,12 +1,23 @@
 # Brew & Co — Sales & Budget Performance Dashboard
 
-An end-to-end Power BI project: messy multi-source data → refreshable Power Query ETL → star-schema model with conformed dimensions → DAX time intelligence → executive dashboard.
+An end-to-end Power BI project: messy multi-source data → refreshable Power Query ETL → dimensional model with two fact tables at different grains, connected through conformed Date, Region and Category dimensions → DAX time intelligence → executive dashboard.
 
-**🔗 Live interactive report:** [View on Power BI]
-https://app.fabric.microsoft.com/view?r=eyJrIjoiNzViYzNhY2EtZmIzZS00ODhhLTljNjgtY2YwMTcyNzhhNjMzIiwidCI6ImJkZTczODM5LWY2OTQtNDI3MC05ZmExLTQxNTNkNzQ2OTdkZCJ9
-
+**[▶ View the live interactive Power BI report](YOUR-PUBLISH-TO-WEB-LINK-HERE)**
 
 ![Executive summary dashboard](images/executive_summary.png)
+
+## Project at a glance
+
+| Area | Detail |
+|---|---|
+| Dataset | ~79,500 synthetic transaction rows |
+| Period | January 2023 – May 2025 |
+| Geography | 8 stores across QLD, NSW and VIC |
+| Fact tables | Daily sales (store × product) and monthly budgets (region × category) |
+| Tools | Power BI, Power Query (M), DAX |
+| Key result | 97.2% budget attainment; VIC drove the entire group shortfall |
+
+**Explore:** [Live dashboard](YOUR-PUBLISH-TO-WEB-LINK-HERE) · [DAX measures](docs/dax_measures.md) · [Build notes](docs/build_notes.md) · [Data dictionary](docs/data_dictionary.md) · [Download the PBIX](BrewAndCo.pbix)
 
 ---
 
@@ -24,24 +35,24 @@ The group finished at **97.2% of budget** — $776,128 actual vs $798,200 target
 | NSW | $214,867 | $220,300 | −$5,433 | 98% |
 | VIC | $185,884 | $212,900 | −$27,016 | **87%** |
 
-**Excluding VIC, the group beat budget by $4,944.** One region accounted for more than the entire shortfall — while like-for-like sales grew **+5.1% YoY** (Jan–May 2025 vs 2024). The data reframes the management question from *"why did we miss budget?"* to *"what is happening in Victoria?"* — a demand problem and an execution problem have very different remedies.
+**Excluding VIC, the group beat budget by $4,944.** One region accounted for more than the entire shortfall — while like-for-like sales grew **+5.1% YoY** (Jan–May 2025 vs 2024). The result shifts management attention toward VIC and raises a testable question: does the gap reflect local demand, operational execution, product mix, or an unrealistic budget baseline? Each of those has a different remedy — and the dashboard's job is to make sure the right question gets asked.
 
 ## The data problem
 
 The source extracts were deliberately messy, mirroring real operational systems:
 
 - **~79,500 transaction rows** over 2.5 years with dates stored as text in *mixed formats* (`dd/mm/yyyy` and ISO `yyyy-mm-dd` in the same column)
-- Duplicate transactions, blank product references, refunds recorded as negative quantities
+- Duplicate rows, blank product references, refunds recorded as negative quantities
 - Store regions spelled seven ways: `QLD`, `Qld`, `Queensland`, `NSW`, `N.S.W.`, `VIC`, `Vic`
 - Budget held at a **different grain** than sales (monthly × region vs daily × store) with **different category names** (`Drinks` vs `Beverages`, `Merchandise` vs `Retail`)
 
 ## The solution
 
-![Data model — star schema with conformed dimensions](images/model_view.png)
+![Data model — dimensional model with conformed dimensions](images/model_view.png)
 
-**Power Query (M):** locale-aware date parsing with `try ... otherwise` fallback for mixed formats, deduplication on transaction ID, text standardisation, conditional-column mapping to a canonical category set. Fully refreshable — zero manual steps.
+**Power Query (M):** locale-aware date parsing with `try ... otherwise` fallback for mixed formats, deduplication after validating the row-level grain, text standardisation, conditional-column mapping to a canonical category set. Fully refreshable — zero manual steps.
 
-**Data model:** star schema with two fact tables (`Fact_Sales`, `Fact_Budget`) at different grains, integrated through **conformed dimensions** (`Dim_Region`, `Dim_Category`) so a single slicer filters both facts correctly. Dedicated marked `Dim_Date` table.
+**Data model:** a star-schema-style dimensional model with two fact tables (`Fact_Sales`, `Fact_Budget`) at different grains, integrated through **conformed dimensions** (`Dim_Region`, `Dim_Category`) so a single slicer filters both facts correctly, with deliberate snowflaking on the sales side (Region → Stores → Sales; Category → Products → Sales). Dedicated marked `Dim_Date` table.
 
 **DAX:** measure layer covering Variance / Variance %, `SAMEPERIODLASTYEAR` YoY, MoM, calendar YTD, **Australian fiscal YTD (July–June)**, and a like-for-like YTD-vs-prior-YTD comparison using variables. All measures in a dedicated `_Measures` table. See [docs/dax_measures.md](docs/dax_measures.md).
 
@@ -53,7 +64,7 @@ The source extracts were deliberately messy, mirroring real operational systems:
 |---|---|
 | `data/` | Source CSVs (synthetic, generated for this project) |
 | `docs/data_dictionary.md` | Every table and column, with the deliberate data-quality issues catalogued |
-| `docs/dax_measures.md` | All DAX measures with explanations |
+| `docs/dax_measures.md` | All DAX measures with explanations and stated assumptions |
 | `docs/build_notes.md` | How the model was built, step by step, and the design decisions |
 | `theme/BrewAndCo_Theme.json` | Custom Power BI theme (semantic colour system) |
 | `images/` | Dashboard and model screenshots |

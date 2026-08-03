@@ -11,7 +11,7 @@ try Date.FromText([date], [Format="dd/MM/yyyy", Culture="en-AU"])
 otherwise Date.FromText([date], [Format="yyyy-MM-dd", Culture="en-AU"])
 ```
 
-**Deduplication** on `transaction_id` (a transaction ID is unique by definition — removing duplicates on it cannot delete legitimate rows).
+**Deduplication** on `transaction_id`, after first validating that in this dataset the transaction ID represents the unique row-level grain (one line item per ID). In systems where one transaction spans multiple line items, deduplication would instead key on a composite (transaction + product) or a dedicated line-item ID — checking the true grain before deduplicating is the step that matters.
 
 **Blank product IDs** filtered out (unmappable to any product; ~15 rows).
 
@@ -19,7 +19,7 @@ otherwise Date.FromText([date], [Format="yyyy-MM-dd", Culture="en-AU"])
 
 **`unit_price` dropped from the fact table.** The Excel instinct is to VLOOKUP/merge price onto every sales row. Resisted: price belongs to the product dimension, and the model fetches it per-row via `RELATED` at measure time. Facts stay lean; price is maintained in one place.
 
-**Region standardisation.** Seven spellings of three states collapsed with a three-rule conditional column (`contains "Q"` → QLD, etc.) after inspecting distinct values — minimal rules beat seven hard-coded branches.
+**Region standardisation.** Seven spellings of three states collapsed with a three-rule conditional column (`contains "Q"` → QLD, etc.) after inspecting distinct values — minimal rules beat seven hard-coded branches. For a larger or evolving production source, this conditional logic would be replaced with a maintained mapping table joined in Power Query, so new variants become a data change rather than a code change.
 
 **Budget month** (`Jan-2023` text) converted by prefixing `01-` and parsing `dd-MMM-yyyy`.
 
